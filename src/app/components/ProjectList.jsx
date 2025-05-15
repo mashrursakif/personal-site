@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ProjectList({ projects }) {
   return (
-    <div className='flex justify-center items-center flex-wrap gap-8'>
+    <div className='grid grid-cols-2 md:grid-cols-3 gap-8 mx-auto max-w-fit'>
       {projects.length === 0 ? (
         <p>Nothing found</p>
       ) : (
@@ -21,7 +21,7 @@ export default function ProjectList({ projects }) {
               </div>
 
               <div className='p-4'>
-                <h2 className='text-3xl color-secondary mb-4'>
+                <h2 className='text-2xl color-secondary mb-4'>
                   {project.title}
                 </h2>
                 <p className='text-md text-gray-800'>{project.description}</p>
