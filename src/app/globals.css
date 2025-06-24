@@ -25,7 +25,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(45deg, #bf360c, #311b92);
+  /* background: oklch(97.7% 0.014 308.299); */
 }
+
+/* div {
+  max-width: 100%;
+} */
+
+/* .background {
+  display: fixed
+  height: 100%;
+  background: linear-gradient(45deg, #bf360c, #311b92);
+} */
 
 ::-webkit-scrollbar {
   width: 4px;
@@ -42,17 +53,21 @@ body {
 .header {
   /* background: gray; */
   border-bottom: 1px solid gray;
-  padding: 16px 24px;
-  display: flex;
+  /* padding: 16px 24px; */
+  /* display: flex; */
   /* gap: 10%; */
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   /* margin-bottom: 60px; */
 }
 
 .banner-con {
   /* background: linear-gradient(45deg, #bf360c, #311b92); */
 }
+
+/* .code-block {
+
+} */
 
 .color-primary {
   color: #4527a0;

@@ -1,19 +1,21 @@
 import Link from 'next/link';
 import ProjectList from './components/ProjectList';
 import CompList from './components/CompList';
-import { projects, comps } from './data/homePageLists';
+import { projects, comps } from './data/dataLists';
 
 export default function Home() {
   return (
     <div>
       <div className='w-full max-w-[1200px] mx-auto flex justify-center items-center px-4 bg-transparent min-h-[400px]'>
         <div className='w-full max-w-[600px] mx-auto px-4'>
-          <h1 className='text-4xl text-white-100 text-center mb-4'>HI</h1>
-          <p className='text-center text-xl'>
-            I'm a Kitty McWhiskers. Welcome to my site, this is a place where I
-            talk about my personal projects related to Machine Learning, Data
-            Science and Web Development. I also document things that I learn
-            along the way and share these notes
+          <h1 className='text-4xl text-white-100 text-start mb-4'>
+            I'm Mashrur Sakif
+          </h1>
+          <p className='text-start text-xl'>
+            Hi, I'm a data science, machine learning enthusiast. Welcome to my
+            site! This is a place where I talk about personal projects that I'm
+            working on, ML competitions I'm participating in and other topics
+            relating to ML, web development, and more
           </p>
         </div>
       </div>

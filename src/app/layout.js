@@ -1,16 +1,26 @@
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Geist, Geist_Mono, Fredoka } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
 
-const geistSans = Geist({
+// const geistSans = Geist({
+//   variable: '--font-geist-sans',
+//   subsets: ['latin'],
+// });
+
+// const geistMono = Geist_Mono({
+//   variable: '--font-geist-mono',
+//   subsets: ['latin'],
+// });
+
+const fredokaSans = Fredoka({
   variable: '--font-geist-sans',
   subsets: ['latin'],
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-});
+// const fredokaMono = Fredoka_Mono({
+//   variable: '--font-geist-mono',
+//   subsets: ['latin'],
+// });
 
 export const metadata = {
   title: 'Create Next App',
@@ -21,27 +31,29 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${fredokaSans.variable} antialiased`}
       >
+        {/* <div className='background'></div> */}
         <div>
-          <div className='header w-full max-w-[1200px] mx-auto px-4'>
-            <div>
+          <div className='header w-full max-w-[1200px] mx-auto p-5 flex align-center justify-evenly lg:justify-between'>
+            <div className='hidden lg:block'>
               <p className='text-lg text-white-100'>
-                A showcase of my work and projects :3
+                A showcase of my work and projects
               </p>
             </div>
 
             <div className='flex gap-6'>
-              <Link href='/' className='text-sm font-bold'>
+              <Link href='/' className='text-md font-bold'>
                 Home
               </Link>
-              <Link href='/projects' className='text-sm font-bold'>
+              <Link href='/projects' className='text-md font-bold'>
                 Projects
               </Link>
-              <Link href='/competitions' className='text-sm font-bold'>
+              <Link href='/competitions' className='text-md font-bold'>
                 Competitions
               </Link>
-              <Link href='/about' className='text-sm font-bold'>
+              <Link href='/about' className='text-md font-bold'>
                 About Me
               </Link>
             </div>
