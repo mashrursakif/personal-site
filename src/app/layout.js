@@ -36,14 +36,17 @@ export default function RootLayout({ children }) {
       >
         {/* <div className='background'></div> */}
         <div>
-          <div className='header w-full max-w-[1200px] mx-auto p-5 flex align-center justify-evenly lg:justify-between'>
+          <div className='header w-full max-w-[1200px] mx-auto px-8 py-5 flex items-center justify-evenly lg:justify-between'>
             <div className='hidden lg:block'>
-              <p className='text-lg text-white-100'>
+              <h1 className='text-lg font-bold text-white-100'>
+                Mashrur Sakif
+              </h1>
+              <p className='text-md text-gray-100'>
                 A showcase of my work and projects
               </p>
             </div>
 
-            <div className='flex gap-6'>
+            <div className='flex gap-6 flex-wrap'>
               <Link href='/' className='text-md font-bold'>
                 Home
               </Link>

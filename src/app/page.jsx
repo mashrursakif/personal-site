@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className='comps-con mb-16 w-full max-w-[1200px] mx-auto py-16 border-b-1 border-purple-800'>
+        <div className='comps-con w-full max-w-[1200px] mx-auto py-16 border-b-1 border-purple-800'>
           <h1 className='text-4xl color-primary mb-12 text-center'>
             ML Competitions
           </h1>

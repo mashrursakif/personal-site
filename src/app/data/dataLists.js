@@ -6,20 +6,6 @@ export const projects = [
     link: 'projects/cat-breed-classifier',
     imageUrl: '/images/cat_breed_classifier.webp',
   },
-  // {
-  //   title: 'Cat Breed Classifier',
-  //   description:
-  //     'A machine learning model that classifies cat breeds. This was made by fine tuning a google-vit transformer model on cat images',
-  //   link: 'projects/cat-breed-classifier',
-  //   imageUrl: '/images/cat_breed_classifier.webp',
-  // },
-  // {
-  //   title: 'Cat Breed Classifier',
-  //   description:
-  //     'A machine learning model that classifies cat breeds. This was made by fine tuning a google-vit transformer model on cat images',
-  //   link: 'projects/cat-breed-classifier',
-  //   imageUrl: '/images/cat_breed_classifier.webp',
-  // },
 ];
 
 export const comps = [

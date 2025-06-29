@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export default function ProjectList({ projects }) {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-fit'>
+    // Change md:grid-cols-1 to 2 when add new project
+    <div className='grid grid-cols-1 md:grid-cols-1 gap-8 mx-auto max-w-fit'>
       {projects.length === 0 ? (
         <p>Nothing found</p>
       ) : (

@@ -8,6 +8,9 @@ const contentMap = {
     import('@/app/content/competitions/DiseaseOutbreaks')
   ),
   'spam-emails': dynamic(() => import('@/app/content/competitions/SpamEmails')),
+  'hydropower-climate-optimization': dynamic(() =>
+    import('@/app/content/competitions/Hydropower')
+  ),
 };
 
 export default async function CompPage({ params }) {
