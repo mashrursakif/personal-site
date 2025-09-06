@@ -43,9 +43,9 @@ export default function AboutMe() {
 							</h2>
 							<p className='text-start text-lg'>
 								I'm a student at Paramount School and College in Rajshahi,
-								Bangladesh, currently finishing my A levels. My interests
-								primarily include data science and machine learning, I
-								occasionally work on web development as well.
+								Bangladesh, currently finishing my A levels. I am interested in
+								computer science and data science. I work on web development,
+								machine learning, and related projects.
 							</p>
 						</div>
 					</div>

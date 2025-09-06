@@ -6,20 +6,20 @@ export const projects = [
 	// 	link: 'projects/cat-breed-classifier',
 	// 	imageUrl: '/images/cat_breed_classifier.webp',
 	// },
-	// {
-	// 	title: 'ml-qol. Python Package for Machine Learning',
-	// 	description:
-	// 		'A Python package that provides helper functions and quality-of-life features for machine learning tasks',
-	// 	link: 'projects/ml-qol',
-	// 	imageUrl: '/images/ml_qol.webp',
-	// },
-	// {
-	// 	title: 'Campus Chronicles Website',
-	// 	description:
-	// 		'Newsletter website for Paramount School and College, Rajshahi',
-	// 	link: 'projects/campus-chronicles',
-	// 	imageUrl: '/images/campus_chronicles.webp',
-	// },
+	{
+		title: 'ml-qol. Python Package for Machine Learning',
+		description:
+			'A Python package that provides helper functions and quality-of-life features for machine learning tasks',
+		link: 'projects/ml-qol',
+		imageUrl: '/images/ml_qol.webp',
+	},
+	{
+		title: 'Campus Chronicles Website',
+		description:
+			'Designed and developed a website for weekly newsletter of Paramount School and College, Rajshahi',
+		link: 'projects/campus-chronicles',
+		imageUrl: '/images/campus_chronicles.webp',
+	},
 ];
 
 export const comps = [
