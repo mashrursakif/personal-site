@@ -4,7 +4,7 @@ A showcase of my work and projects
 
 My website where I talk about my personal projects, share solutions for ML competitions I've participated in, and other topics such as web development, data science, etc.
 
-[View the site](mashrursakif.vercel.app)
+[View the site](https://mashrursakif.vercel.app)
 
 ## List of tools used
 
