@@ -16,7 +16,7 @@ export const projects = [
 	{
 		title: 'Campus Chronicles Website',
 		description:
-			'Designed and developed a website for weekly newsletter of Paramount School and College, Rajshahi',
+			'Designed and developed the weekly newsletter website of Paramount School and College, Rajshahi',
 		link: 'projects/campus-chronicles',
 		imageUrl: '/images/campus_chronicles.webp',
 	},
