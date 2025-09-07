@@ -127,7 +127,9 @@ print(predictions)`}</code>
 			</div>
 
 			<div className='mb-8'>
-				<h2 className='text-2xl font-bold mb-4 color-secondary'>Final Notes</h2>
+				<h2 className='text-2xl font-bold mb-4 color-secondary'>
+					Closing Notes
+				</h2>
 
 				<p className='text-lg mb-4'>
 					This is the first Python package I have made, and overall I'm happy

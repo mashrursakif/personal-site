@@ -16,7 +16,7 @@ export default function Home() {
 						learning. Welcome to my site! This is a place where I talk about my
 						personal projects, share solutions for ML competitions I've
 						participated in, and other topics such as web development, data
-						science, and more.
+						science
 					</p>
 				</div>
 			</div>
