@@ -7,7 +7,9 @@ const contentMap = {
 	//   'cat-breed-classifier': dynamic(() =>
 	//     import('@/app/content/projects/CatBreedClassifier')
 	//   ),
-
+	// 'bd-electricity-forecast': dynamic(() =>
+	// 	import('@/app/content/projects/BDElectricityForecast')
+	// ),
 	'ml-qol': dynamic(() => import('@/app/content/projects/MLPackage')),
 	'campus-chronicles': dynamic(() =>
 		import('@/app/content/projects/CampusChronicles')

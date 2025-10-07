@@ -9,14 +9,13 @@ export default function Home() {
 			<div className='w-full max-w-[1200px] mx-auto flex justify-center items-center px-4 bg-transparent min-h-[400px]'>
 				<div className='w-full max-w-[600px] mx-auto px-4'>
 					<h1 className='text-4xl text-white-100 text-start mb-4'>
-						I'm Mashrur Sakif
+						Hi, I'm Mashrur Sakif
 					</h1>
 					<p className='text-start text-xl'>
-						Hi, I'm a student with an interest in programming and machine
-						learning. Welcome to my site! This is a place where I talk about my
-						personal projects, share solutions for ML competitions I've
-						participated in, and other topics such as web development, data
-						science
+						I'm a student with an interest in programming and machine learning.
+						Welcome to my site! This is a place where I talk about my personal
+						projects, share solutions for ML competitions I've participated in,
+						and other topics such as web development and data science
 					</p>
 				</div>
 			</div>
@@ -39,9 +38,9 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className='comps-con w-full max-w-[1200px] mx-auto py-16 border-b-1 border-purple-800'>
+				<div className='comps-con w-full max-w-[1200px] mx-auto py-16'>
 					<h1 className='text-4xl color-primary mb-12 text-center'>
-						ML Competitions
+						Machine Learning Competitions
 					</h1>
 
 					<CompList comps={comps.slice(0, 4)} />

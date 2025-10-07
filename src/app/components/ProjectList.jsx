@@ -2,13 +2,24 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function ProjectList({ projects }) {
+	function isExternal(link) {
+		if (link.startsWith('http') || link.startsWith('//')) return true;
+	}
+
 	return (
 		<div className='grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto max-w-fit'>
 			{projects.length === 0 ? (
 				<p className='text-gray-900 text-center'>No projects found</p>
 			) : (
 				projects.map((project, index) => (
-					<Link key={index} href={project.link}>
+					<Link
+						key={index}
+						href={project.link}
+						// target='_blank'
+						target={isExternal(project.link) ? '_blank' : undefined}
+						// rel='noopener noreferrer'
+						rel={isExternal(project.link) ? 'noopener noreferrer' : undefined}
+					>
 						<div className='bg-white shadow-md w-full max-w-[360px] h-[400px] rounded-lg overflow-hidden'>
 							<div className=''>
 								<Image

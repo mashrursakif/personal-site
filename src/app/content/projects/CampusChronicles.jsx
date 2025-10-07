@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function MLPackage() {
+export default function CampusChronicles() {
 	return (
 		<div className='max-w-full text-black pb-20'>
 			<div className='mb-10'>

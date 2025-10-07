@@ -7,6 +7,14 @@ export const projects = [
 	// 	imageUrl: '/images/cat_breed_classifier.webp',
 	// },
 	{
+		title: 'Bangladesh Electricity Forecast',
+		description:
+			'Predict electricity generation and outage in Bangladesh using a machine learning model',
+		// link: 'projects/bd-electricity-forecast',
+		link: 'https://bangladesh-electricity-forecast.vercel.app',
+		imageUrl: '/images/bd_electricity_forecast.webp',
+	},
+	{
 		title: 'ml-qol. Python Package for Machine Learning',
 		description:
 			'A Python package that provides helper functions and quality-of-life features for machine learning tasks',
