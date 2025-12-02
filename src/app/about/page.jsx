@@ -3,6 +3,11 @@ import Link from 'next/link';
 
 const links = [
 	{
+		url: 'https://github.com/mashrursakif',
+		imagePath: '/images/github_icon.webp',
+		name: 'GitHub',
+	},
+	{
 		url: 'https://www.kaggle.com/mashrursakif',
 		imagePath: '/images/kaggle_icon.webp',
 		name: 'Kaggle',
@@ -13,9 +18,9 @@ const links = [
 		name: 'Zindi',
 	},
 	{
-		url: 'https://github.com/mashrursakif',
-		imagePath: '/images/github_icon.webp',
-		name: 'GitHub',
+		url: 'https://hub.crunchdao.com/users/mashrur',
+		imagePath: '/images/crunchdao_icon.webp',
+		name: 'CrunchDAO',
 	},
 ];
 
@@ -56,7 +61,7 @@ export default function AboutMe() {
 						Connect
 					</h1>
 
-					<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+					<div className='grid grid-cols-1 sm:grid-cols-2 gap-6'>
 						{links.map((link, idx) => (
 							<div key={idx}>
 								<Link href={link.url} target='_blank' rel='noopener noreferrer'>

@@ -28,6 +28,13 @@ export const projects = [
 		link: 'projects/campus-chronicles',
 		imageUrl: '/images/campus_chronicles.webp',
 	},
+	{
+		title: 'ASCII Image Converter',
+		description:
+			'A program to convert images and videos to ASCII text, written in C',
+		link: 'projects/ascii-converter',
+		imageUrl: '/images/ascii_converter.webp',
+	},
 ];
 
 export const comps = [

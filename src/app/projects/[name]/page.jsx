@@ -14,6 +14,9 @@ const contentMap = {
 	'campus-chronicles': dynamic(() =>
 		import('@/app/content/projects/CampusChronicles')
 	),
+	'ascii-converter': dynamic(() =>
+		import('@/app/content/projects/ASCIIConverter')
+	),
 };
 
 export default async function ProjectPage({ params }) {
