@@ -13,8 +13,8 @@ export default function ASCIIConverter() {
 					A program that converts images and videos into ASCII text. This was my
 					first program written in C. While this is a small project, the primary
 					motivation for creating it was learning to use C as a beginner.
-					Choosing a more fun, small scale project helped at learning the basics
-					without it being too overwhelming.
+					Choosing a more fun, small scale project helped with learning the
+					basics without it being too overwhelming.
 				</p>
 			</div>
 
@@ -41,7 +41,7 @@ export default function ASCIIConverter() {
 					Installation and Usage
 				</h2>
 
-				<p className='text-lg mb-4'>Clone git repo and install</p>
+				<p className='text-lg mb-4'>Clone git repo and build</p>
 				<pre className='bg-gray-800 text-white p-4 rounded-md max-w-[99%] overflow-x-auto text-sm mb-5'>
 					<code>{`git clone https://github.com/mashrursakif/ascii-converter.git`}</code>
 					<br />
@@ -128,12 +128,6 @@ export default function ASCIIConverter() {
 
 			<div className='mb-8'>
 				<h2 className='text-2xl font-bold mb-4 color-secondary'>Process</h2>
-
-				{/* Process iamge using stb_image
-                video thru FFmpeg
-                scale frame/image based on res
-                map brightness to char
-                view/playback loop terminal/web */}
 
 				<div className='mb-6'>
 					<h3 className='text-xl font-semibold mb-2'>Image Processing</h3>
@@ -224,7 +218,7 @@ char map_px_to_char(unsigned char brightness) {
 
 					<p className='text-lg mb-4'>
 						The <code className='bg-gray-300 p-1'>print_output</code> function
-						loops through the pixels are writes to specified file (by default,
+						loops through the pixels and writes to specified file (by default,
 						it outputs to terminal using{' '}
 						<code className='bg-gray-300 p-1'>stdout</code>)
 					</p>
@@ -286,7 +280,7 @@ char map_px_to_char(unsigned char brightness) {
 					As this was my first time programming in C, majority of my time on
 					this project was spent learning basic usage and features of C. Trying
 					to understand pointers, memory allocation and management, different
-					data types, and much more. Coming from Javasript and Python, both of
+					data types, and much more. Coming from Javascript and Python, both of
 					which work at a much higher level of abstraction, it can be quite
 					confusing and difficult to learn C concepts. But grasping concepts of
 					a low level language does make it significantly easier to understand
@@ -295,7 +289,7 @@ char map_px_to_char(unsigned char brightness) {
 					with these things, etc. Working with image and video processing using
 					stb_image and FFmpeg for the first time has also been very insightful.
 					Even though this project was made just for fun, it did help me learn
-					fundamentals of using C quite well
+					fundamentals of using C quite well.
 				</p>
 			</div>
 		</div>

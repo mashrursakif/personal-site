@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import CompList from '../components/CompList';
+import CompResults from '../components/CompResults';
 import { comps } from '../data/dataLists';
 
 export default function Competitions() {
@@ -8,9 +9,9 @@ export default function Competitions() {
 			<div className='w-full max-w-[1200px] mx-auto flex justify-center items-center px-8 py-16 bg-transparent min-h-[360px]'>
 				<div className='w-full max-w-[600px] mx-auto px-4'>
 					<h1 className='text-4xl text-white-100 text-center mb-4'>
-						My Machine Learning Competitions
+						Machine Learning Competitions
 					</h1>
-					<p className='text-center text-xl'>
+					<p className='text-center text-lg'>
 						These are some of the notable ML competitions I've participated in.
 						They include tasks such as making tabular regression and
 						classification models, forecasting based on timeseries data, and
@@ -41,7 +42,11 @@ export default function Competitions() {
 			</div>
 
 			<div className='bg-purple-50 min-h-[800px]'>
-				<div className='projects-con w-full max-w-[1200px] mx-auto py-16 border-purple-800'>
+				<div className='projects-con w-full max-w-[1200px] mx-auto pt-12 pb-8 border-purple-800'>
+					<h2 className='text-3xl text-center font-bold mb-12 color-primary'>
+						Posts
+					</h2>
+
 					<CompList comps={comps} />
 
 					<p className='text-lg text-center text-gray-900 mt-8'>
@@ -52,9 +57,25 @@ export default function Competitions() {
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							GitHub
+							GitHub Repo
 						</Link>
 					</p>
+				</div>
+			</div>
+
+			<div className='bg-purple-50 min-h-[800px]'>
+				<div className='projects-con w-full max-w-[1200px] mx-auto pt-8 pb-16 border-purple-800'>
+					<h2 className='text-3xl font-bold text-center mb-12 color-primary'>
+						Competition Results
+					</h2>
+
+					{/* <p className='text-lg text-center text-gray-900 mt-4'>
+                        Competitions without full write-ups. These are competitions
+                        with private data/code, smaller competitions, and limited public
+                        details.
+                    </p> */}
+
+					<CompResults comps={comps} />
 				</div>
 			</div>
 		</div>

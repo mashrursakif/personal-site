@@ -9,7 +9,8 @@ export default function Projects() {
 					<h1 className='text-4xl text-white-100 text-center mb-4'>
 						Personal Projects
 					</h1>
-					<p className='text-center text-xl'>
+
+					<p className='text-center text-lg'>
 						These are projects I've worked on in my free time. It spans variety
 						of things such as web development, building python packages, and
 						working on this website itself! Making these was a great way for me
