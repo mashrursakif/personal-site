@@ -102,18 +102,18 @@ export const comps = [
 	// 	webLink:
 	// 		'https://zindi.africa/competitions/barbados-lands-and-surveys-plot-automation-challenge',
 	// },
-	{
-		title: 'Exploring Mental Health Data - Kaggle Playground',
-		description:
-			'Using data from a mental health survey to explore factors that may cause depression',
-		placement: '211 / 2685',
-		webLink: 'https://www.kaggle.com/competitions/playground-series-s4e11',
-	},
-	{
-		title: 'Binary Prediction with a Rainfall Dataset - Kaggle Playground',
-		description:
-			'Predicting rainfall for each day of the year based on weather patterns',
-		placement: '403 / 4381',
-		webLink: 'https://www.kaggle.com/competitions/playground-series-s5e3',
-	},
+	// {
+	// 	title: 'Exploring Mental Health Data - Kaggle Playground',
+	// 	description:
+	// 		'Using data from a mental health survey to explore factors that may cause depression',
+	// 	placement: '211 / 2685',
+	// 	webLink: 'https://www.kaggle.com/competitions/playground-series-s4e11',
+	// },
+	// {
+	// 	title: 'Binary Prediction with a Rainfall Dataset - Kaggle Playground',
+	// 	description:
+	// 		'Predicting rainfall for each day of the year based on weather patterns',
+	// 	placement: '403 / 4381',
+	// 	webLink: 'https://www.kaggle.com/competitions/playground-series-s5e3',
+	// },
 ];
